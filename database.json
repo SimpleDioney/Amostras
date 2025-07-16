@@ -1,0 +1,28 @@
+{
+  "users": {
+    "554384377779@c.us": {
+      "name": "Hadryan",
+      "type": "camarista",
+      "wppId": "554384377779@c.us"
+    },
+    "554384850358@c.us": {
+      "name": "Cicero",
+      "type": "camarista",
+      "wppId": "554384850358@c.us"
+    },
+    "554396165580@c.us": {
+      "name": "Antonio",
+      "type": "camarista",
+      "wppId": "554396165580@c.us"
+    },
+    "554388457578@c.us": {
+      "name": "Jonas",
+      "type": "camarista",
+      "wppId": "554388457578@c.us"
+    }
+  },
+  "userState": {},
+  "config": {
+    "adminContact": "554391752119@c.us"
+  }
+}
