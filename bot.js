@@ -89,6 +89,7 @@ wppconnect
       console.log('Nome da Sessão:', session);
     },
     headless: true,
+    browserArgs: ['--no-sandbox', '--disable-setuid-sandbox'],
   })
   .then((client) => start(client))
   .catch((error) => console.log(error));
