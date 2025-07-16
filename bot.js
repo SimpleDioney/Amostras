@@ -89,7 +89,16 @@ wppconnect
       console.log('Nome da Sessão:', session);
     },
     headless: true,
-    browserArgs: ['--no-sandbox', '--disable-setuid-sandbox'],
+    browserArgs: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-accelerated-2d-canvas',
+    '--no-first-run',
+    '--no-zygote',
+    '--single-process',
+    '--disable-gpu'
+  ],
   })
   .then((client) => start(client))
   .catch((error) => console.log(error));
