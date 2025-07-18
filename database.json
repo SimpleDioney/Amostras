@@ -10,19 +10,45 @@
       "type": "camarista",
       "wppId": "554384850358@c.us"
     },
-    "554396165580@c.us": {
+    "554391964950@c.us": {
       "name": "Antonio",
-      "type": "camarista",
-      "wppId": "554396165580@c.us"
+      "type": "vendedor",
+      "wppId": "554391964950@c.us",
+      "samples": [
+        {
+          "sampleId": "915acfe1-40ea-4b37-a95d-4a976bfbf92e",
+          "receivedDate": "2025-07-18T13:41:21.985Z",
+          "status": "awaiting_client_response",
+          "currentSampleId": "915acfe1-40ea-4b37-a95d-4a976bfbf92e",
+          "customerName": "ATS ALIMENTOS LTDA",
+          "contractClosed": false,
+          "followUpDate": "2025-07-20T13:47:54.087Z",
+          "followUpNotified": false
+        },
+        {
+          "sampleId": "65f1d751-c062-4f15-93b3-a109937ff7c7",
+          "receivedDate": "2025-07-18T13:41:21.985Z",
+          "status": "pending_feedback"
+        },
+        {
+          "sampleId": "4a862a4e-0473-4a84-a186-93f4021ff7c3",
+          "receivedDate": "2025-07-18T13:45:51.544Z",
+          "status": "pending_feedback"
+        }
+      ]
     },
-    "554388457578@c.us": {
+    "554399241054@c.us": {
       "name": "Jonas",
-      "type": "camarista",
-      "wppId": "554388457578@c.us"
+      "type": "admin",
+      "wppId": "554399241054@c.us"
     }
   },
   "userState": {},
   "config": {
-    "adminContact": "554391752119@c.us"
+    "adminContact": "554391964950@c.us",
+    "sampleOverdueDays": 7,
+    "devolutivaCorrectionSeconds": 300,
+    "progressiveReminderDaysTier1": 8,
+    "progressiveReminderDaysTier2": 14
   }
 }

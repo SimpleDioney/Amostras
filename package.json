@@ -13,6 +13,7 @@
     "@wppconnect-team/wppconnect": "^1.37.3",
     "exceljs": "^4.4.0",
     "node-cron": "^4.2.1",
+    "sqlite3": "^5.1.7",
     "uuid": "^11.1.0"
   }
 }
